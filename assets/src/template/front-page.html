@@ -1,0 +1,45 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#testNativeJavaScript">
+                    Start
+                </button>
+
+                <div class="modal fade" id="testNativeJavaScript" tabindex="-1" role="dialog"
+                     aria-labelledby="testNativeJavaScript" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">Do you know all countries capital?</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="grid">
+                                    <div id="quiz">
+                                        <p id="question"></p>
+                                        <div class="buttons">
+                                            <button class="btn btn-success" id="btn0"><span id="choice0"></span>
+                                            </button>
+                                            <button class="btn btn-success" id="btn1"><span id="choice1"></span>
+                                            </button>
+                                            <button class="btn btn-success" id="btn2"><span id="choice2"></span>
+                                            </button>
+                                            <button class="btn btn-success" id="btn3"><span id="choice3"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="progress" class="btn btn-info" disabled>Question x of y.</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

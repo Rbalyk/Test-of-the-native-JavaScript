@@ -1,0 +1,31 @@
+body {
+  padding: 30px;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header,footer,main,section{
+  width: 100%;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Museo Sans Cyrl 700';
+  margin: 0;
+  width: 100%;
+}
+.modal-header{
+  padding: 1rem;
+  border: 0;
+  .close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+  }
+}
+.modal-body{
+  text-align: left;
+}

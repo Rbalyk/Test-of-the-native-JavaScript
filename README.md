@@ -1,8 +1,8 @@
 ## Test of the native JavaScript
 
-![alt text](sreen1.jpeg?raw=true "Title")
+![alt text](sreen1.jpeg)
 
-![alt text](sreen2.jpeg?raw=true "Title")
+![alt text](sreen2.jpeg)
  
 ## Requirements for the environment
 To create an environment you need to have the following installed tools:
